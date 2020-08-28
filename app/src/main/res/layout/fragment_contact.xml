@@ -39,11 +39,12 @@
             android:onClick="@{()->contactViewModel.onContactAdd()}"
             android:text="Button" />
 
-        <TextView
-            android:id="@+id/textview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@{contactViewModel.contactString}" />
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/contact_bg"
+                android:text="@{contactViewModel.contactString}" />
         </LinearLayout>
 
     </FrameLayout>

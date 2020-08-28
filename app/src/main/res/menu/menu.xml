@@ -3,8 +3,10 @@
 
     <item
         android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_baseline_directions_walk_24"
         android:title="About Me" />
     <item
         android:id="@+id/contactFragment"
+        android:icon="@drawable/ic_baseline_extension_24"
         android:title="Contact" />
 </menu>
