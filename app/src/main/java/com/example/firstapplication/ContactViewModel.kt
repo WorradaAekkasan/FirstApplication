@@ -34,8 +34,6 @@ class ContactViewModel (
                 append(" : ")
                 append(it.name)
                 append(", ")
-                append(it.address)
-                append("<br>")
                 append(it.phone)
                 append("<br>")
             }
@@ -56,7 +54,6 @@ class ContactViewModel (
         uiScope.launch {
             val newContact = Contact()
             newContact.name = binding.editTextTextPersonName.text.toString()
-            newContact.address = binding.editTextTextPersonAddress.text.toString()
             newContact.phone = binding.editTextTextPersonPhone.text.toString()
             insert(newContact)
         }
